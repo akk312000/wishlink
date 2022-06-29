@@ -1,0 +1,12 @@
+.videoFooter{
+	position:relative;
+	color:white;
+	display:flex;
+	bottom:50px;
+	padding:flex;
+	
+}
+
+.videoFooter__text{
+	flex:1;
+}
