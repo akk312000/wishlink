@@ -12,7 +12,7 @@ function VideoFooter({name,description,cost_price,original_price}) {
 
 			 <p className='original_price'>₹2000</p>
 			 <p className='discount'>(20% OFF)</p>
-			 <h3 className='shop_button'>SHOP</h3>
+			 <btn className='shop_button'>SHOP</btn>
 		  </div>
 	</div>
   )

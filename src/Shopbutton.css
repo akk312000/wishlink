@@ -1,0 +1,34 @@
+
+.shop_btn{
+width: 134px;
+height: 32px;
+left: 12px;
+top: 124px;
+/* position:relative; */
+align-items: center;
+place-items: center;
+background: #021927;
+border-radius: 100px;
+}
+.shop_text{
+/* width: 71px; */
+/* place-items: center; */
+height: 20px;
+/* left: 43px; */
+top: 130px;
+ white-space: nowrap;
+  overflow: hidden;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 20px;
+/* identical to box height, or 143% */
+
+/* display: flex; */
+/* align-items: center; */
+/* text-align: center; */
+letter-spacing: 0.1px;
+
+color: #FFFFFF;
+}

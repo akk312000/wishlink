@@ -1,12 +1,12 @@
 import React, { useRef, useState } from 'react'
-import { BsPlayCircle } from 'react-icons/bs';
+// import { BsPlayCircle } from 'react-icons/bs';
 import "./Video.css"
 import Image from './public/dress.png'
 import VideoFooter from './VideoFooter';
 function Video() {
 	const [play, setPlay] = useState(false);
 	const videoRef = useRef(null);
-	const isVideoPlaying = videoRef => !!(videoRef.currentTime > 0 && !videoRef.paused && !videoRef.ended && videoRef.readyState > 2);
+	// const isVideoPlaying = videoRef => !!(videoRef.currentTime > 0 && !videoRef.paused && !videoRef.ended && videoRef.readyState > 2);
 	const [showButton, setShowButton] = useState(true)
 		const onButtonClick = () => {
 			setShowButton(!showButton)
@@ -26,13 +26,10 @@ function Video() {
 }
   return (
 	  <div className='video'>
-		  {/* <div>
-			  <BsPlayCircle/>
-		</div> */}
 		  <video className="video__player"
 			  loop
 			  controls
-			//   preload="metadata"
+			  preload="metadata"
 			  poster={Image}
 			  onClick={onVideoPress}
 			  ref={videoRef}
@@ -51,14 +48,10 @@ function Video() {
 				} 
 				  </div>
 			  </div>
-			  <div className="grad">
-{/* <BsPlayCircle/> */}
-			  </div>
 		  {play &&
 				  
 			  <VideoFooter />
 		  }
-	  {/* <VideoSidebar/> */}
 
 		  {!play &&
 			  <div>

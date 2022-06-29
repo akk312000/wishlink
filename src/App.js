@@ -1,4 +1,5 @@
 import './App.css';
+import Products from './Products';
 import Video from './Video';
 
 function App() {
@@ -8,9 +9,9 @@ function App() {
       <h1>Hello</h1>
       <div className='app__videos'>
         <Video/>
-        <Video/>
-        <Video/>
-        <Video/>
+    <Products/>
+    <Products/>
+    <Products/>
     </div>
     </div>
   );

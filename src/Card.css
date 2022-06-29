@@ -1,0 +1,90 @@
+.card{
+	display:flex;
+flex-direction: row;
+}
+.tg_para{
+width: 134px;
+height: 36px;
+position:relative;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+font-feature-settings: 'pnum' on, 'lnum' on;
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.tg_price{
+width: 30px;
+height: 16px;
+
+position:relative;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+text-decoration-line: line-through;
+
+color: #999999;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+
+}
+.tg_newprice{
+width: 39px;
+height: 21px;
+
+position:relative;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.tg_discount{
+width: 55px;
+height: 16px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 16px;
+/* identical to box height, or 145% */
+
+
+color: #DD5F2D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
