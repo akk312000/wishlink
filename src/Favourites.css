@@ -136,9 +136,9 @@ color: #666666;
 
 /* Inside auto layout */
 
-flex: none;
+/* flex: none;
 order: 1;
-flex-grow: 0;
+flex-grow: 0; */
 }
 .img-container{
 }

@@ -33,7 +33,7 @@ function Video() {
 			  poster={Image}
 			  onClick={onVideoPress}
 			  ref={videoRef}
-			  src="https://assets.mixkit.co/videos/preview/mixkit-animation-of-futuristic-devices-99786-large.mp4">
+			  src="https://assets.mixkit.co/videos/preview/mixkit-woman-modeling-a-short-black-dress-805-large.mp4">
 
 		  </video>
 		

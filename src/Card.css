@@ -88,3 +88,57 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+.offer{
+/* display: flex; */
+flex-direction: row;
+justify-content: center;
+align-items:flex-start;
+padding: 2px 8px;
+gap: 4px;
+
+position: relative;
+left: -2.7%;
+right: 20.27%;
+top: -82.44%;
+bottom: 10.85%;
+
+background: #E91E63;
+box-shadow: 1px 1px 1px #000000;
+border-radius: 4px;
+}
+.offer_img{
+width: 12px;
+height: 12px;
+
+/* background: url(discount.png); */
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.offer_text{
+width: 90px;
+height: 14px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height, or 117% */
+
+display: flex;
+align-items: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
+}

@@ -2,6 +2,34 @@ html{
 	/* scroll-snap-type: y mandatory;  */
 }
 
+.headi{
+	color: white;
+	background-color: white;
+	 width:80%;
+	 max-width: 400px;
+/* height: 24px; */
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+/* font-size: 16px; */
+/* line-height: 24px; */
+/* identical to box height */
+
+display: flex;
+align-items: center;
+text-align: center; 
+letter-spacing: 0.025em;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+/* flex: none; */
+/* order: 1; */
+/* flex-grow: 0; */
+}
 .App{
 	background-color: black;
 	height:100vh;
@@ -26,4 +54,39 @@ display:none
 .app__videos{
 	-ms-overflow-style:none;
 	scrollbar-width:none;
+}
+.dior{
+box-sizing: border-box;
+position: relative;
+width: 328px;
+height: 49px;
+left: 0px;
+top: 669px;
+
+background: #FFFFFF;
+border: 1px solid #F2F2F2;
+border-radius: 4px;
+}
+.left{
+/* position: absolute; */
+left: 18.67%;
+margin-left: 1%;
+right: 16.67%;
+top: 16.67%;
+bottom: 16.67%;
+}
+.profile{
+	margin-left:2%;
+}
+.verified{
+width: 16px;
+height: 16px;
+margin-left: 2px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 2;
+flex-grow: 0;
 }
