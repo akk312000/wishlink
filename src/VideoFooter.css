@@ -1,12 +1,182 @@
 .videoFooter{
 	position:relative;
 	color:white;
-	display:flex;
-	bottom:50px;
+	bottom:190px;
 	padding:flex;
+	margin-left: 10%;
+box-sizing: border-box;
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 8px;
+gap: 8px;
+
+width: 295px;
+height: 98px;
+
+background: #F4F8F0;
+border: 1px solid #E5E5E5;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
 	
 }
+.videoFooter__record{
+box-sizing: border-box;
 
+width: 48px;
+height: 48px;
+
+/* background: url(44b5484dc20b4c8d9e64742f9a04228c_w1000_q90); */
+border: 1px solid #F2F2F2;
+border-radius: 8px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
 .videoFooter__text{
 	flex:1;
+}
+.dressName{
+width: 46px;
+height: 21px;
+
+/* font-family: 'Poppins'; */
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height */
+
+text-transform: uppercase;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.shop_button{
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 4px 16px;
+gap: 8px;
+
+width: 61px;
+height: 25px;
+
+background: #021927;
+/* M3/Elevation Light/1 */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.3), 0px 1px 3px 1px rgba(0, 0, 0, 0.15);
+border-radius: 100px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.description{
+width: 154px;
+height: 18px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+font-feature-settings: 'pnum' on, 'lnum' on;
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.price{
+width: 35px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 21px;
+/* identical to box height, or 150% */
+
+
+color: #333333;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.original_price{
+width: 30px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 21px;
+/* identical to box height, or 191% */
+
+text-decoration-line: line-through;
+
+color: #999999;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;}
+.discount{
+width: 55px;
+height: 21px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 11px;
+line-height: 21px;
+/* identical to box height, or 191% */
+
+
+color: #DD5F2D;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.card{
+flex:0 0 auto;
 }
