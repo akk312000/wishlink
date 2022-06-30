@@ -1,6 +1,7 @@
 # Wishlink Frontend Assignment
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and is optimised for devices with screen of width greater than 500px.
+For Live Demo go to - [Assignment Link](https://wishlink_frontend_assignment_by_ashishkashyap.surge.sh/)
 
 ## Available Scripts
 
