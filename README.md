@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Wishlink Frontend Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and is optimised for devices with screen of width greater than 500px.
 
 ## Available Scripts
 
