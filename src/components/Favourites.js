@@ -1,9 +1,9 @@
 import React from "react";
 
-import img1 from "./public/img1.png";
-import img2 from "./public/dress.png";
-import img3 from "./public/img3.png";
-import img4 from "./public/img2.png";
+import img1 from "../public/img1.png";
+import img2 from "../public/dress.png";
+import img3 from "../public/img3.png";
+import img4 from "../public/img2.png";
 import "./Favourites.css";
 function Favourites() {
   return (
@@ -25,11 +25,10 @@ function Favourites() {
               <img src={img3} className="img3" alt="" />
             </div>
           </div>
-        <p className="para">Shop all my posts specially curated for you</p>
+          <p className="para">Shop all my posts specially curated for you</p>
         </div>
       </div>
       <div></div>
-
     </>
   );
 }

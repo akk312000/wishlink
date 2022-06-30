@@ -2,6 +2,7 @@
 	display:flex;
 flex-direction: row;
 }
+
 .tg_para{
 width: 134px;
 height: 36px;
@@ -21,6 +22,7 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
+
 .tg_price{
 width: 30px;
 height: 16px;
@@ -45,6 +47,7 @@ order: 1;
 flex-grow: 0;
 
 }
+
 .tg_newprice{
 width: 39px;
 height: 21px;
@@ -67,6 +70,7 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
+
 .tg_discount{
 width: 55px;
 height: 16px;
@@ -88,6 +92,7 @@ flex: none;
 order: 0;
 flex-grow: 0;
 }
+
 .offer{
 /* display: flex; */
 flex-direction: row;
