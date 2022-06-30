@@ -9,13 +9,17 @@ import verified from "./public/verified.png";
 function App() {
   return (
     <div className="App">
+      
+
       <h1 className="headi">
+      
         <img src={left}i className="left" alt=""/>
         <img src={profile} className="profile" alt=""/>
 Maitreyi Dutta
 
         <img src={verified} className="verified" alt=""/>
       </h1>
+        
       <div className="app__videos">
         <Video />
         <Products productName="Tagged Products (2)" productCount={4} />

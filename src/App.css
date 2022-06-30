@@ -1,13 +1,18 @@
 html{
 	/* scroll-snap-type: y mandatory;  */
 }
-
+.head-top{
+	display:grid;
+	place-items: center;
+}
 .headi{
 	color: white;
 	background-color: white;
 	 width:80%;
+	 display:grid;
+	 place-items: center;
 	 max-width: 392px;
-	margin-left: -107px;
+	/* margin-left: -107px; */
 /* height: 24px; */
 
 font-family: 'Poppins';
@@ -43,7 +48,7 @@ color: #333333;
 	position:relative;
 	 height:800px;
 	 overflow:scroll;
-	 width:80%;
+	 /* width:80%; */
 	 max-width: 500px;
 	 scroll-snap-type: y mandatory;
 	 /* scroll-snap-align: start; */

@@ -10,8 +10,6 @@ function Favourites() {
     <>
       <div className="header">
         <h1 className="tg_products">Complete my look</h1>
-{/* <div></div> */}
-        <p className="para">Shop all my posts specially curated for you</p>
         <div className="img-container">
           <div className="row">
             <div className="column">
@@ -27,9 +25,11 @@ function Favourites() {
               <img src={img3} className="img3" alt="" />
             </div>
           </div>
+        <p className="para">Shop all my posts specially curated for you</p>
         </div>
       </div>
       <div></div>
+
     </>
   );
 }

@@ -146,7 +146,8 @@ flex-grow: 0; */
 box-sizing: border-box;
 
 /* position: relative; */
-width: 100%;
+width: 140px;
+
 height: 90px;
 left: 0px;
 top: 0px;
@@ -158,7 +159,8 @@ border-radius: 8px;
 box-sizing: border-box;
 
 /* position: absolute; */
-width: 100%;
+width: 140px;
+
 height: 284px;
 left: 0px;
 top: 0px;
@@ -172,7 +174,8 @@ border-radius: 8px;
 box-sizing: border-box;
 
 /* position: absolute; */
-width: 100%;
+width: 140px;
+
 height: 160px;
 left: 0px;
 top: 0px;
@@ -185,10 +188,11 @@ border-radius: 8px;
   float: left;
   width: 50%;
   padding: 0.01px;
+  margin-left: -8px;
 }
 .column2{
 /* margin-top:-775px; */
-  
+ margin-right: -3px;
   float: right;
   width: 50%;
   /* padding: 10px; */

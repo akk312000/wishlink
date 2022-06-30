@@ -5,7 +5,10 @@ function ShopButton() {
 	  <>
 
 		  <button  className='shop_btn'>
-			  <p className='shop_text'>SHOP NOW</p></button>
+			  <p className='shop_text'><a href="https://home.wishlink.com/">
+				  SHOP NOW
+			  </a>
+			  </p></button>
 		</>
   )
 }

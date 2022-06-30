@@ -17,7 +17,10 @@ function VideoFooter({name,description,cost_price,original_price}) {
 					  
 			 <p className='discount'>(20% OFF)</p>
 
-			 <btn className='shop_button'>SHOP</btn>
+					  <btn className='shop_button'><a href="https://home.wishlink.com/">
+						  SHOP
+					  </a>
+					  </btn>
 			 </div>
 		  </div>
 		  </div>
